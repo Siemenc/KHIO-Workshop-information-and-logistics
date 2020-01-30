@@ -1,6 +1,7 @@
+## CNC workshop & logistiscs KHIO
 This Github page will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
 
-** Startup procedure:
+## Startup procedure:
 - Turn on machine using the switch in the back of the machine
 - Hard home the machine by pressing Shift (arrow up) first and then the button in the top left corner. There cannot be any tool inside the spindle before homing.
 - Run spindle warmup routine
@@ -9,7 +10,7 @@ This Github page will describe how to use the MultiCam 3000 router at KHIO and h
 
 
 
-**Fixing material to the machine:
+## Fixing material to the machine:
 The multicam at KHIO uses a vacuumbed to hold most materials in place. This has advantages and disadvantages over screwing down your material to the sacraficial layer.
 Advantages:
 No need to screw down; No need to leave as much space around the parts to be cut out
@@ -19,16 +20,16 @@ Disadvantages:
 - No easy way to lign up the material along the axis
 
 
-**Moving the machine:
+## Moving the machine:
 Check which speed the machine is set to for jogging on the screen of the remote. If you'd like to switch the speed setting, press the double arrow button.
 The direction of the arrows will indicate which direction the machine will move. Make sure to have the remote aligned in the correct direction of the machine (as if you're standing in front of the machine)
 The normal arrows will move the machine in the x and y-direction. For moving in the z-direction
 
-**Starting the extraction:
+## Starting the extraction:
 Automatic? Or with the switch on the machine. Currently (January 2020) it's not working.
 
 
-**To start a job:
+## To start a job:
 - Make sure you went through the startup procedure (turn on machine, zeroing, warm up routine)
 - Make sure the correct milling bits are in the correct place of the automatic toolchanger.
 - Make sure the computer is turned on and the correct file is in the correct folder
@@ -38,19 +39,19 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 - Press the "Start" button (video cut icon)
 - You'll get a preview of the job. If this looks correct (Also check by holding the remote in the correct direction according to the machine)
 
-**Machine remote:
+## Machine remote:
 The machine remote is needed to control and calibrate the machine and to actually run the files.
 
 
 
-**Preparing toolpaths using RhinoCam
+## Preparing toolpaths using RhinoCam
 
 
 
-**Maintenance
+## Maintenance
 - Smear grease using the grease pumps
 - Check the level of the cooling water
 - Refill cooling water
 
 
-**Errors
+## Errors
