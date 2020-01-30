@@ -1,7 +1,13 @@
-## CNC workshop & logistiscs KHIO
+# CNC workshop & logistiscs KHIO
 This Github page will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
 
 ![Multicam 3000](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090637.jpg)
+
+## Machine remote:
+The multicam 3000 is controled using a remote, hanging on the wall next to the router.
+The machine remote is needed to control and calibrate the machine and to actually run the files.
+![Machine remote](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090555.jpg)
+
 
 ## Startup procedure:
 - Turn on machine using the switch in the back of the machine
@@ -41,9 +47,6 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 - Press the "Start" button (video cut icon)
 - You'll get a preview of the job. If this looks correct (Also check by holding the remote in the correct direction according to the machine)
 
-## Machine remote:
-The machine remote is needed to control and calibrate the machine and to actually run the files.
-![Machine remote](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090555.jpg)
 
 ## Preparing toolpaths using RhinoCam
 
