@@ -1,6 +1,6 @@
 This Github page will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
 
-**Startup procedure:
+** Startup procedure:
 - Turn on machine using the switch in the back of the machine
 - Hard home the machine by pressing Shift (arrow up) first and then the button in the top left corner. There cannot be any tool inside the spindle before homing.
 - Run spindle warmup routine
