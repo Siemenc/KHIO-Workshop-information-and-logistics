@@ -43,8 +43,7 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 
 ## Machine remote:
 The machine remote is needed to control and calibrate the machine and to actually run the files.
-
-
+![Machine remote](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090555.jpg)
 
 ## Preparing toolpaths using RhinoCam
 
