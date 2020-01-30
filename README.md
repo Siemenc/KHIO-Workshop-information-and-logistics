@@ -1,5 +1,5 @@
 # CNC workshop & logistiscs KHIO
-This Github page will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
+This Repository will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
 
 ![Multicam 3000](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090637.jpg)
 
