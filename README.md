@@ -1,6 +1,8 @@
 ## CNC workshop & logistiscs KHIO
 This Github page will describe how to use the MultiCam 3000 router at KHIO and help solve common errors or problems.
 
+![Multicam 3000](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090637.jpg)
+
 ## Startup procedure:
 - Turn on machine using the switch in the back of the machine
 - Hard home the machine by pressing Shift (arrow up) first and then the button in the top left corner. There cannot be any tool inside the spindle before homing.
