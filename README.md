@@ -62,7 +62,7 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 ## Preparing toolpaths using RhinoCam
 
 
-## Sending a 
+## Postprocessing toolpaths
 
 
 ## Maintenance
