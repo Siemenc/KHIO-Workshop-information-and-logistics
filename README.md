@@ -11,7 +11,8 @@ The machine remote is needed to control and calibrate the machine and to actuall
 
 ## Startup procedure:
 - Turn on machine using the switch in the back of the machine
-- Hard home the machine by pressing Shift (arrow up) first and then the button in the top left corner. There cannot be any tool inside the spindle before homing.
+- Hard home the machine by pressing Shift (arrow up) first and then the green button in the top left corner. There cannot be any tool inside the spindle before homing. If there is a tool in the spindle go to "Errors" below.
+![Hard Home](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/HardHome.jpg)
 - Run spindle warmup routine (The remote will ask automatically after hard homing)
 - Manually home the machine in X and Y direction by moving the spindle to the correct position by eyeballing and then pressing the button in the top left corner showing the 2 dots and the rectangle.
 - For setting the Z-position, move the spindle down until you're close to the top of the surface. Change the speed setting to the slowest using the double arrow button on the remote. Now move the spindle in both X and Z direction until the bit scrapes the material. Now press the button to set this position as a new Z-home position (on the left?)
