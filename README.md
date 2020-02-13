@@ -21,19 +21,22 @@ The machine remote is needed to control and calibrate the machine and to actuall
 
 
 ## Fixing material to the machine:
-The multicam at KHIO uses a vacuumbed to hold most materials in place. This has advantages and disadvantages over screwing down your material to the sacraficial layer.
+The multicam at KHIO uses a vacuumbed to hold most materials in place. The vacuumbed is divided into 4 section which can be turned on/off using the handles in the front. Having a vacuumbed has advantages and disadvantages over other machines where you screw down your material to the sacraficial layer (f.e. Shopbot @ Fellesverkstedet).
+
 Advantages:
-No need to screw down; No need to leave as much space around the parts to be cut out
+- No need to spend time screw down and taking screw into consideration when creating toolpaths
+- No need to leave as much space around the parts to be cut out
 
 Disadvantages:
 - Vacuum leaks when milling a lot of slots
 - No easy way to lign up the material along the origin
-
+- In case your piece is smaller than the section of the vacuumbed, you need to cover the rest of the section to prevent leaking of the vacuum.
 
 ## Moving the machine:
 Check which speed the machine is set to for jogging on the screen of the remote. If you'd like to switch the speed setting, press the double arrow button.
+
 The direction of the arrows will indicate which direction the machine will move. Make sure to have the remote aligned in the correct direction of the machine (as if you're standing in front of the machine)
-The normal arrows will move the machine in the x and y-direction. For moving in the z-direction
+The normal arrows will move the machine in the x and y-direction. For moving in the z-direction you press
 
 ## Starting the extraction:
 Automatic? Or with the switch on the machine. Currently (January 2020) it's not working.
@@ -70,6 +73,9 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 - Check the level of the cooling water
 - Refill cooling water
 
+
+## Calibrating the tool
+Until instructions are written down, check out this link: https://www.youtube.com/watch?v=kye__44Uw2s
 
 ## Errors
 - Low Air Pressure: The machine won't unload or load a tool and will not start a job. Last time this happened (January 2020), this got fixed by replacing the filter of the compressed air. To do this you'll need a new filter. Replace the hold filter by first cutting off the flow of air coming into the filter using the lever at the ceiling. Then follow the instructions that come with the new filter. Last time the 3rd filter (the one most on the right) when looking at the wall with the filters got replaced.
