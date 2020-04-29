@@ -91,3 +91,41 @@ Until instructions are written down, check out this link: https://www.youtube.co
 - Low Air Pressure: The machine won't unload or load a tool and will not start a job. Last time this happened (January 2020), this got fixed by replacing the filter of the compressed air. To do this you'll need a new filter. Replace the hold filter by first cutting off the flow of air coming into the filter using the lever at the ceiling. Then follow the instructions that come with the new filter. Last time the 3rd filter (the one most on the right) when looking at the wall with the filters got replaced.
 - Modbus Timeout Slv:14: Error that randomly pops up together with "80000 Error occured". We don't know what causes this but usually you can continue using the machine and perhaps need to restart the job.
 - Dus collector NOT open! (ENTER to continue): This error has popped up when trying to start a job. This got fixed by making sure the dust skirt can move upwards and hit the sensor (a red light on the top left next to the spindle). There might have been some dust clogged up that prevents hitting this switch
+
+
+## Tricks
+### Help
+If you'd like to know what which button on the controller does you can use the Help function. Activate the help function by pressing the "?" button. Then press the button you'd like to get more information on. This works as well with Shift button by pressing Shift after pressing the "?" button to get more information on buttons in shift-mode.
+
+### Setting custom homes
+Next to Hard Home there's a way to set custom homes on the machine. These are positions on the machine which you can later refer to when restarting the machine. To define a new home position, move to the position you'd like to set and press Shift and then the button with a House. Choose in which number you'd like to save this home position and you're done. Next time you start the machine (after homing!) you can go back to this position by pressing the Home button and then the number.
+
+### Move to last home
+After shutting the machine down you can find the same home position from before you turn it off. After homing, press Shift and then the "Set Home" button.
+
+### Set spindle RPM
+Shift and increase spindle RPM button (left of Cancel button). Not tried yet (29.04.20).
+
+### No Spin Spindle
+Shift and decrease spindle RPM button (left of Start button). Not tried yet (29.04.20).
+
+### Parking
+Park the spindle on the left, right, back or front of the machine by first pressing Shift and then the arrow belonging to the direction you'd like to "park" the machine. It first move the Z- to safe height before moving.
+
+### Open chuck
+Shift + 5.
+
+### Dry Run mode
+If you'd like to see where the machine will cut you can run the job in the air = Dry Run Mode. To do this you start the file like you normally do by finding the file using the controller and pressing the "Start" button (Movie symbol). Now you get a menu with 3 options (Start,Cancel or Pause). While you are in this menu press the green arrow down button. After that the screen show Dry Run Mode. Press Enter to start the job in Dry Run Mode.
+
+### Change job settings
+After starting the job, pause the job and go to Params_2D. Here you can change the settings
+
+### Step and Repeat
+For creating the same part several times until the material is full. See manual. I Think this is not that usefull, since it's better to plan in the CAM-software.
+
+## Machine information
+Spindle RPM range: 4000-31998
+Vacuum bed size: 1270 mm x 2550 mm
+Vacuum bed zones: 4
+Z-height between vacuum bed & bridge: 165 mm
