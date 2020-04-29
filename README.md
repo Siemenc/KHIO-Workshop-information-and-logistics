@@ -125,7 +125,7 @@ After starting the job, pause the job and go to Params_2D. Here you can change t
 For creating the same part several times until the material is full. See manual. I Think this is not that usefull, since it's better to plan in the CAM-software.
 
 ## Machine information
-Spindle RPM range: 4000-31998
-Vacuum bed size: 1270 mm x 2550 mm
-Vacuum bed zones: 4
-Z-height between vacuum bed & bridge: 165 mm
+Spindle RPM range: 4000-31998  
+Vacuum bed size: 1270 mm x 2550 mm  
+Vacuum bed zones: 4  
+Z-height between vacuum bed & bridge: 165 mm  
