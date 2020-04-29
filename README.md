@@ -69,13 +69,23 @@ Automatic? Or with the switch on the machine. Currently (January 2020) it's not 
 
 
 ## Maintenance
-- Smear grease using the grease pumps
+- Refill grease using the grease pumps
+There's 13 nipples on the machine to feed the grease into:
+- 4 on the X-axis (2 on each side of the bridge)
+- 4 on the Y axis (2 on each side of the Z-axis)
+- 5 on the Z-axis (2 on each side of the Spindle and 1 on the top to grease the screw controlling the Z-axis)
+Make sure the grease pump clicks on the nipple before trying to pump grease. You might need to push the connector onto the nipple to make sure the grease-container gets filled and the grease doesn't spread around the nipple. If you can see the grease coming out onto the guide (not next to the nipple!) you've done it correctly.
+
 - Check the level of the cooling water
+
 - Refill cooling water
 
+- Clean filter of vacuum-bed
+On the left side of the machine there's a machine colored black with orange details. This is the machine creating the vacuum for the machine bed. On top of the machine there's a black cylinder where a blue tube runs into. This is the filter container. Make sure the vacuum bed is not on and unlock the clamps on the front of the filter container. Inside this container you will find the filter which you can just take out. Use compressed air to blow the dust out of the filter by blowing from the hole in the center to the edges of the filter. Also clean out the black filter cabinet from any dust as this otherwise would get sucked back into the filter.
 
 ## Calibrating the tool
 Until instructions are written down, check out this link: https://www.youtube.com/watch?v=kye__44Uw2s
+
 
 ## Errors
 - Low Air Pressure: The machine won't unload or load a tool and will not start a job. Last time this happened (January 2020), this got fixed by replacing the filter of the compressed air. To do this you'll need a new filter. Replace the hold filter by first cutting off the flow of air coming into the filter using the lever at the ceiling. Then follow the instructions that come with the new filter. Last time the 3rd filter (the one most on the right) when looking at the wall with the filters got replaced.
