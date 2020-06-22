@@ -13,7 +13,7 @@ The machine remote is needed to control and calibrate the machine and to actuall
 - **Turn on machine** using the switch in the back of the machine
 - **Hard home** the machine by pressing Shift (arrow up) first and then the green button in the top left corner. There cannot be any tool inside the spindle before homing. If there is a tool in the spindle go to "Errors" below.
 ![Hard Home](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/HardHome.jpg)
-- Run **spindle warmup routine** (The remote will ask automatically after hard homing)
+- Run **spindle warmup routine** (The remote will ask automatically after hard homing, press enter - bottom left button - to confirm)
 - **Manually home the machine in X and Y according to the material** you are cutting: move the spindle to the correct position by eyeballing and then pressing the blue button on the left showing the 2 dots and the rectangle.
 ![Home](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/Home.jpg)
 - **Manually home the machine in Z according to the material**: move the spindle with the milling bit down using the Z movement buttons until you're close to the top of the surface you are milling. Change the speed settings to the slowest using the double arrow button on the remote. Now move the spindle in both X and Z direction until the bit scrapes the material. Now press the blue button on the left as shown below to set this position as a new Z-home position.
