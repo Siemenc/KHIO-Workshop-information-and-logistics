@@ -16,7 +16,7 @@ The machine remote is needed to control and calibrate the machine and to actuall
 - Run **spindle warmup routine** (The remote will ask automatically after hard homing, press enter - bottom right button - to confirm)
 - **Manually home the machine in X and Y according to the material** you are cutting: move the spindle to the correct position by eyeballing and then pressing the blue button on the left showing the 2 dots and the rectangle.
 ![Home](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/Home.jpg)
-- **Manually home the machine in Z according to the material**: move the spindle with the milling bit down using the Z movement buttons until you're close to the top of the surface you are milling. Change the speed settings to the slowest using the double arrow button on the remote. Now move the spindle in both X and Z direction until the bit scrapes the material. Now press the blue button on the left as shown below to set this position as a new Z-home position.
+- **Manually home the machine in Z according to the material**: move the spindle with the milling bit down using the Z movement buttons until you're close to the top of the surface you are milling. Change the speed settings to the slowest using the double arrow button on the remote. Now move the spindle in both X and Z direction until the bit scrapes the material (Alternatively use a piece of paper below the bit and slide it back and forward while moving Z down until the paper is stuck). Then press the blue button on the left as shown below to set this position as a new Z-home position.
 ![HomeZ](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/HomeZ.jpg)
 
 
@@ -24,31 +24,30 @@ The machine remote is needed to control and calibrate the machine and to actuall
 The multicam at KHIO uses a vacuumbed to hold most materials in place. The vacuumbed is divided into 4 section which can be turned on/off using the handles in the front. Having a vacuumbed has advantages and disadvantages over other machines where you screw down your material to the sacraficial layer (f.e. Shopbot @ Fellesverkstedet).
 
 Advantages:
-- No need to spend time screw down and taking screw into consideration when creating toolpaths
+- No need to spend time screwing down and taking screw into consideration when creating toolpaths
 - No need to leave as much space around the parts to be cut out
 
 Disadvantages:
 - Vacuum leaks when milling a lot of slots
-- No easy way to lign up the material along the origin
+- No easy way to line up the material along the origin
 - In case your piece is smaller than the section of the vacuumbed, you need to cover the rest of the section to prevent leaking of the vacuum.
 
 ## Moving the machine:
 Check which speed the machine is set to for jogging on the screen of the remote. If you'd like to switch the speed setting, press the double arrow button.
 
-The direction of the arrows will indicate which direction the machine will move. Make sure to have the remote aligned in the correct direction of the machine (as if you're standing in front of the machine)
-The normal arrows will move the machine in the x and y-direction. For moving in the z-direction you press
+The direction of the arrows will indicate which direction the machine will move. Make sure to have the remote aligned in the correct direction of the machine (as if you're standing in front of the machine: X is the long direction of the machine = up and won on the remote)
+The normal arrows will move the machine in the x and y-direction. For moving in the z-direction you press the Arrows with the letter "Z" next to it.
 
 ## Starting the extraction:
-Automatic? Or with the switch on the machine. Currently (January 2020) it's not working.
+This goes automatic, however there is a way to turn this off for each separate tool (for instance for milling aluminium). Make sure there's enough space in the bags before starting the job. Also good to clean the filters regularely by turning the button on the side of the machine to "Clean".
 
 ## To start a job:
 - Make sure you went through the startup procedure (turn on machine, zeroing, warm up routine)
 - Make sure the correct milling bits are in the correct place of the automatic toolchanger.
 - Make sure the computer is turned on and the correct file is in the correct folder
 - Load a job by pressing the button showing the machine connected to a computer by cable, in the bottom left corner
-- Choose which file you want to run & press Enter (button in bottom left corner)
-- Turn on the vacuum
-- You'll get a preview of the job. If this looks correct (Also check by holding the remote in the correct direction according to the machine) you can press the "Start" button (video cut icon)
+- Choose which file you want to run & press Enter (button in bottom right corner).
+- You'll get a preview of the job. If this looks correct (Also check by holding the remote in the correct direction according to the machine) you can press the "Start" button (video cut icon, below the yellow pause button)
 
 ## To check how much time the last job took
 - Using the machine controller: press the menu button
@@ -77,8 +76,10 @@ There's 13 nipples on the machine to feed the grease into:
 Make sure the grease pump clicks on the nipple before trying to pump grease. You might need to push the connector onto the nipple to make sure the grease-container gets filled and the grease doesn't spread around the nipple. If you can see the grease coming out onto the guide (not next to the nipple!) you've done it correctly.
 
 - Check the level of the cooling water
+To be written down
 
 - Refill cooling water
+To be written down
 
 - Clean filter of vacuum-bed
 On the left side of the machine there's a machine colored black with orange details. This is the machine creating the vacuum for the machine bed. On top of the machine there's a black cylinder where a blue tube runs into. This is the filter container. Make sure the vacuum bed is not on and unlock the clamps on the front of the filter container. Inside this container you will find the filter which you can just take out. Use compressed air to blow the dust out of the filter by blowing from the hole in the center to the edges of the filter. Also clean out the black filter cabinet from any dust as this otherwise would get sucked back into the filter.
@@ -90,7 +91,7 @@ Until instructions are written down, check out this link: https://www.youtube.co
 ## Errors
 - Low Air Pressure: The machine won't unload or load a tool and will not start a job. Last time this happened (January 2020), this got fixed by replacing the filter of the compressed air. To do this you'll need a new filter. Replace the hold filter by first cutting off the flow of air coming into the filter using the lever at the ceiling. Then follow the instructions that come with the new filter. Last time the 3rd filter (the one most on the right) when looking at the wall with the filters got replaced.
 - Modbus Timeout Slv:14: Error that randomly pops up together with "80000 Error occured". We don't know what causes this but usually you can continue using the machine and perhaps need to restart the job.
-- Dus collector NOT open! (ENTER to continue): This error has popped up when trying to start a job. This got fixed by making sure the dust skirt can move upwards and hit the sensor (a red light on the top left next to the spindle). There might have been some dust clogged up that prevents hitting this switch
+- Dust collector NOT open! (ENTER to continue): This error has popped up when trying to start a job. This got fixed by making sure the dust skirt can move upwards and can hit the sensor (a red light on the top left next to the spindle). There might have been some dust clogged up that prevents hitting this switch. Shake the dust shoe a bit to release but be carefull with your hands. 
 
 
 ## Tricks
