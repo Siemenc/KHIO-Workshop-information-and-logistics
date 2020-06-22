@@ -5,7 +5,7 @@ This Repository will describe how to use the MultiCam 3000 router at KHIO and he
 
 ## Machine remote:
 The multicam 3000 is controled using a remote, hanging on the wall next to the router.
-The machine remote is needed to control and calibrate the machine and to actually run the files.
+The machine remote is needed to control and calibrate the machine and to actually run the files. The first and most important feature to know is the big red emergency stop button on the top. If anything goes badly wrong, this is the first thing to press. CAUTION Never leave the machine unattended while running it, as loose pieces or boken bits can overheat and cause a fire.
 ![Machine remote](https://github.com/Siemenc/KHIO-Workshop-information-and-logistics/blob/master/Images/IMG_20200124_090555.jpg)
 
 
